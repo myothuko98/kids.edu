@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:keepScreenOn="true"
+    tools:context=".Flowers">
+
+    <RelativeLayout
+        android:id="@+id/flower_rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/flower_l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/balloom_flower"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/balloon_flower" />
+
+                <TextView
+                    android:id="@+id/balloon_flower_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/balloom_flower"
+                    android:text="@string/balloon_flower" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/blue_star"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/blue_star" />
+
+                <TextView
+                    android:id="@+id/blue_star_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/blue_star"
+                    android:text="@string/blue_star" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/bamboo_orchid"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/bamboo_orchid" />
+
+                <TextView
+                    android:id="@+id/bamboo_orchid_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bamboo_orchid"
+                    android:text="@string/bamboo_orchid" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/brasilian_blume"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/brasilian_blume" />
+
+                <TextView
+                    android:id="@+id/brasilian_blume_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/brasilian_blume"
+                    android:text="@string/brasilian_blume" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/flower_l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flower_l1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/buddha_belly"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/buddha_belly" />
+
+                <TextView
+                    android:id="@+id/buddha_belly_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/buddha_belly"
+                    android:text="@string/buddha_belly" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/angle_wing_begonia"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/angel_wing_begonia" />
+
+                <TextView
+                    android:id="@+id/angel_wing_bego_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/angle_wing_begonia"
+                    android:text="@string/angel_wing_begonia" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/arisaema"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/arisaema" />
+
+                <TextView
+                    android:id="@+id/arisaema_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/arisaema"
+                    android:text="@string/arisaema" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/artichoke"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/artichoke" />
+
+                <TextView
+                    android:id="@+id/artichoke_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/artichoke"
+                    android:text="@string/artichoke" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/flower_l3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flower_l2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/aster"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/aster" />
+
+                <TextView
+                    android:id="@+id/aster_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/aster"
+                    android:text="@string/aster" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/authurium"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/authurium" />
+
+                <TextView
+                    android:id="@+id/authurium_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/authurium"
+                    android:text="@string/authurium" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/avens"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/avens" />
+
+                <TextView
+                    android:id="@+id/avens_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/avens"
+                    android:text="@string/avens" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/calendula"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/calendula" />
+
+                <TextView
+                    android:id="@+id/calendula_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/calendula"
+                    android:text="@string/calendula" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/flower_l4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flower_l3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/candytuft"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/candytuft" />
+
+                <TextView
+                    android:id="@+id/candytuft_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/candytuft"
+                    android:text="@string/candytuft" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/cantaloup"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/cantaloup" />
+
+                <TextView
+                    android:id="@+id/cantalup_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cantaloup"
+                    android:text="@string/cantaloup" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/cape_primrose"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/cape_primrose" />
+
+                <TextView
+                    android:id="@+id/cape_primrose_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cape_primrose"
+                    android:text="@string/cape_primrose" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/caper"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/caper" />
+
+                <TextView
+                    android:id="@+id/caper_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/caper"
+                    android:text="@string/caper" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context=".Fruits">
+
+    <RelativeLayout
+        android:id="@+id/fruit_rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/fruit_l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/apple"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/apples" />
+
+                <TextView
+                    android:id="@+id/apple_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/apple"
+                    android:text="@string/apple" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/apricot"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/apricot" />
+
+                <TextView
+                    android:id="@+id/apricot_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/apricot"
+                    android:text="@string/apricot" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/asparagus"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/asparagus" />
+
+                <TextView
+                    android:id="@+id/asparagus_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/asparagus"
+                    android:text="@string/asparagus" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/avocado"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/avocado" />
+
+                <TextView
+                    android:id="@+id/avocado_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/avocado"
+                    android:text="@string/avocado" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fruit_l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fruit_l1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/banana"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/bananas" />
+
+                <TextView
+                    android:id="@+id/banana_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/banana"
+                    android:text="@string/bananas" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/beans"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/beans" />
+
+                <TextView
+                    android:id="@+id/beans_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/beans"
+                    android:text="@string/beans" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/beetroot"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/beetroot" />
+
+                <TextView
+                    android:id="@+id/beetroot_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/beetroot"
+                    android:text="@string/beetroot" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/blackberry"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/blackberry" />
+
+                <TextView
+                    android:id="@+id/blackberry_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/blackberry"
+                    android:text="@string/blackberry" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fruit_l3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fruit_l2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/blueberry"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/blueberry" />
+
+                <TextView
+                    android:id="@+id/blueberry_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/blueberry"
+                    android:text="@string/blueberry" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/broccoli"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/broccoli" />
+
+                <TextView
+                    android:id="@+id/broccoli_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/broccoli"
+                    android:text="@string/broccoli" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/cloudberry"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/cloudberry" />
+
+                <TextView
+                    android:id="@+id/cloudberry_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cloudberry"
+                    android:text="@string/cloudberry" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/cabbage"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/cabbage" />
+
+                <TextView
+                    android:id="@+id/cabbage_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cabbage"
+                    android:text="@string/cabbage" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fruit_l4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fruit_l3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/cantaloupe"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/cantaloupe" />
+
+                <TextView
+                    android:id="@+id/cantaloupe_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cantaloupe"
+                    android:text="@string/cantaloupe" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/carrot"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/carrot" />
+
+                <TextView
+                    android:id="@+id/carrot_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/carrot"
+                    android:text="@string/carrot" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/cauliflower"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/cauliflower" />
+
+                <TextView
+                    android:id="@+id/cauliflower_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cauliflower"
+                    android:text="@string/cauliflower" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/celery"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/celery" />
+
+                <TextView
+                    android:id="@+id/celery_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/celery"
+                    android:text="@string/celery" />
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/fruit_l5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fruit_l4"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/cherry"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/cherry" />
+
+                <TextView
+                    android:id="@+id/cherry_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cherry"
+                    android:text="@string/cherry" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/cowberry"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/cowberry" />
+
+                <TextView
+                    android:id="@+id/cowberry_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cowberry"
+                    android:text="@string/cowberry" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/cranberry"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/cranberry" />
+
+                <TextView
+                    android:id="@+id/cranberry_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cranberry"
+                    android:text="@string/cranberry" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/cucumber"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/cucumber" />
+
+                <TextView
+                    android:id="@+id/cucumber_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cucumber"
+                    android:text="@string/cucumber" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

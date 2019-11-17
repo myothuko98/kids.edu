@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context=".Animal">
+
+    <RelativeLayout
+        android:id="@+id/flower_rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/flower_l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/anteater"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/anteater" />
+
+                <TextView
+                    android:id="@+id/anteater_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/anteater"
+                    android:text="@string/anteater" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/antelope"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/antelope" />
+
+                <TextView
+                    android:id="@+id/antelope_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/antelope"
+                    android:text="@string/antelope" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/bali_myanh"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/bali_mynah" />
+
+                <TextView
+                    android:id="@+id/bali_myanh_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bali_myanh"
+                    android:text="@string/bali_mynah" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/bat"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/bat" />
+
+                <TextView
+                    android:id="@+id/bat_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bat"
+                    android:text="@string/bat" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/flower_l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flower_l1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/bear"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/bear" />
+
+                <TextView
+                    android:id="@+id/bear_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bear"
+                    android:text="@string/bear" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/bee"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/bee" />
+
+                <TextView
+                    android:id="@+id/bee_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:text="@string/bee" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/beetle"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/beetle" />
+
+                <TextView
+                    android:id="@+id/beetle_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/beetle"
+                    android:text="@string/beetle" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/binturong"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/binturong" />
+
+                <TextView
+                    android:id="@+id/binturong_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/binturong"
+                    android:text="@string/binturong" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/flower_l3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flower_l2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/blad_eagle"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/blad_eagle" />
+
+                <TextView
+                    android:id="@+id/blad_eagler_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/blad_eagle"
+                    android:text="@string/blad_eagle" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/boa"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/boa" />
+
+                <TextView
+                    android:id="@+id/boa_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/boa"
+                    android:text="@string/boa" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/bonobo"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/bonobo" />
+
+                <TextView
+                    android:id="@+id/bonobo_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bonobo"
+                    android:text="@string/bonobo" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/bop"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/bop" />
+
+                <TextView
+                    android:id="@+id/bop_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bop"
+                    android:text="@string/bop" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/flower_l4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flower_l3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:baselineAligned="false">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/bowerbird"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:src="@drawable/bowerbird" />
+
+                <TextView
+                    android:id="@+id/bowerbird_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bowerbird"
+                    android:text="@string/bower_bird" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/butterfly"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/butterfly" />
+
+                <TextView
+                    android:id="@+id/butterfly_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/butterfly"
+                    android:text="@string/butterfly" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/ca_condor"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ca_condor" />
+
+                <TextView
+                    android:id="@+id/ca_condor_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ca_condor"
+                    android:text="@string/ca_condor" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/dolphin"
+                    android:layout_width="153dp"
+                    android:layout_height="153dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/dolphin" />
+
+                <TextView
+                    android:id="@+id/dolphin_txt"
+                    style="@style/text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dolphin"
+                    android:text="@string/dolphin" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

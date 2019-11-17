@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Kids.Edu</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="btn_alphabets">Alphabets</string>
+    <string name="btn_numeric">Numeric</string>
+    <string name="btn_flowers">Flowers</string>
+    <string name="btn_fruits">Fruits</string>
+    <string name="btn_animals">Animals</string>
+
+    <string name="blue_star">Blue Star</string>
+    <string name="brasilian_blume">Brasilian Blume</string>
+    <string name="buddha_belly">Buddha Belly</string>
+    <string name="balloon_flower">Balloon Flower</string>
+    <string name="bamboo_orchid">Bamboo Orchid</string>
+    <string name="calendula">Calendula</string>
+    <string name="candytuft">Candytuft</string>
+    <string name="cantaloup">Cantaloup</string>
+    <string name="cape_primrose">Cape Primrose</string>
+    <string name="caper">Caper</string>
+    <string name="angel_wing_begonia">Angel Wing Begonia</string>
+    <string name="arisaema">Arisaema</string>
+    <string name="artichoke">Artichoke</string>
+    <string name="aster">Aster</string>
+    <string name="authurium">Authurium</string>
+    <string name="avens">Avens</string>
+
+    <string name="apple">Apple</string>
+    <string name="apricot">Apricot</string>
+    <string name="asparagus">Asparagus</string>
+    <string name="avocado">Avocado</string>
+    <string name="bananas">Bananas</string>
+    <string name="beans">Beans</string>
+    <string name="beetroot">Beetroot</string>
+    <string name="blackberry">Black Berry</string>
+    <string name="blueberry">Blue Berry</string>
+    <string name="broccoli">Broccoli</string>
+    <string name="bllace">Bullace</string>
+    <string name="cabbage">Cabbage</string>
+    <string name="cantaloupe">Cantaloupe</string>
+    <string name="carrot">Carrot</string>
+    <string name="cauliflower">Cauliflower</string>
+    <string name="celery">Celery</string>
+    <string name="cherry">Cherry</string>
+    <string name="cloudberry">Cloud Berry</string>
+    <string name="cowberry">Cow Berry</string>
+    <string name="cranberry">Cran Berry</string>
+    <string name="cucumber">Cucumber</string>
+    <string name="currants">Currants</string>
+
+
+    <string name="anteater">Anteater</string>
+    <string name="antelope">Antelope</string>
+    <string name="bali_mynah">Bali Mynah</string>
+    <string name="bat">Bat</string>
+    <string name="bear">Bear</string>
+    <string name="bee">Bee</string>
+    <string name="beetle">Beetle</string>
+    <string name="binturong">Binturong</string>
+    <string name="blad_eagle">Blad Eagle</string>
+    <string name="boa">Boa</string>
+    <string name="bonobo">Bonobo</string>
+    <string name="bop">Bop</string>
+    <string name="bower_bird">Lower Bird</string>
+    <string name="butterfly">Butterfly</string>
+    <string name="ca_condor">Ca Condor</string>
+    <string name="dolphin">Dolphin</string>
+    
+</resources>
